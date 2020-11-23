@@ -40,3 +40,14 @@ Example:
 
 - branch `v1.0`
 - directory `3.12`
+
+## Automated Build configurations
+
+- SOURCE REPOSITORY : `kofuseigetsu/docker-alpine-mysqld`
+- AUTOTEST : `Off`
+- REPOSITORY LINKS : `Off`
+- BUILD RULES :  
+  | Source Type | Source | Docker Tag | Dockerfile location | Build Context | Autobuild | Build Caching |
+  | -------| -------------- | --------------- | ---------- | ----------- | --- | --- |
+  | Branch | main           | 3.12            | Dockerfile | /3.12       | Yes | No  |
+  | Branch | /^(v[0-9.]+)$/ | 3.12-{\1}       | Dockerfile | /3.12       | Yes | No  |
