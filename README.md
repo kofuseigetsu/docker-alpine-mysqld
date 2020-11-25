@@ -41,7 +41,11 @@ Example:
 - branch `v1.0`
 - directory `3.12`
 
-## Automated Build configurations
+## Image Repository
+
+https://hub.docker.com/r/seigetsu/alpine-mysqld
+
+## Automated Build configurations on Docker Hub
 
 - SOURCE REPOSITORY : `kofuseigetsu/docker-alpine-mysqld`
 - AUTOTEST : `Off`
